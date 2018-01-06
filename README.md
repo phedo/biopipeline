@@ -27,3 +27,8 @@
       > user@user-Desktop:/biopipeline$ snakemake 
       
    Результаты работы пайплайна будут в папке output. Конечный результат будет в подпапке freq_parser.
+   
+---
+Используемые в пайплайне Dockerfile и некоторые дистрибутивы доступны тут: <http://my-area.ru/biopipeline/docker.tar.gz>
+
+Е-мейл для связи: nukkduko@gmail.com
