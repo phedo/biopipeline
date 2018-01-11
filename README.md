@@ -6,14 +6,10 @@
     > git clone https://github.com/FedotovaEvgenia/biopipeline.git \
     > cd biopipeline
 
-2) Скачайте референсы и библиотеки (для hg38), без них пайплайн ничего не знает (придется скачать 12,3 GB):
-    > curl http://my-area.ru/biopipeline/reference.tar.gz -o reference/reference.tar.gz \
-    > tar -xvzf reference/reference.tar.gz
+2) Скачайте и распакуйте в папку reference/ [референсы и библиотеки](https://drive.google.com/file/d/10wQD2m9TBP8ILb9dcFFTuN_CTyS-hllq/view?usp=sharing) (для hg38). Без них пайплайн ничего не знает. Придется скачать 12,3 GB.
 
 3) Задайте пайплайну входные данные - прямые и обратные риды в формате fastq.
-* Если у вас нет своих данных, вы можете скачать наши (и ничего больше не менять):
-     > curl http://my-area.ru/biopipeline/input.tar.gz -o input/input.tar.gz \
-     > tar -xvzf input/input.tar.gz
+* Если у вас нет своих данных, вы можете [скачать наши](https://drive.google.com/file/d/1_Ea_1Agu2mFAWkf3QtQkNTeA_qyDSAdT/view?usp=sharing) (и ничего больше не менять).
 * Если у вас есть свои данные, поместите их в папку input, например: my_reads_R1.fastq, my_reads_R2.fastq и создайте конфиг файл config.json. В config.json запишите:
      > { \
      >   "input_folder": "input/", \
@@ -29,6 +25,6 @@
    Результаты работы пайплайна будут в папке output. Конечный результат будет в подпапке freq_parser.
    
 ---
-Используемые в пайплайне Dockerfile и некоторые дистрибутивы доступны тут: <http://my-area.ru/biopipeline/docker.tar.gz>
+Используемые в пайплайне Dockerfile и некоторые дистрибутивы доступны [тут](https://drive.google.com/file/d/1sjHM0QuGODmcs7eYWlwd9_KFZZo-O9Wt/view?usp=sharing).
 
 Е-мейл для связи: nukkduko@gmail.com
